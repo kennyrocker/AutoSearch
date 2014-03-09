@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/lib/jquery-1.9.1.min.js"></script>
+<meta charset=utf-8 />
+<title>JS Search Module</title>
+<link rel="stylesheet" href="css/serach_module.css">
+</head>
+
+<body>
+
+  <div id="filter1" class="auto-search"></div>
+
+
+<script src="js/data.js"></script>
+<script src="js/auto_search.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+    	var filter1 = new autoSearch({ idStr : "filter1", dataArr: dArr, placeHolderStr: "serach fitler 1" });
+    });
+</script>
+</body>
+</html>
