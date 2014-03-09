@@ -1,0 +1,8 @@
+input.auto-search {
+	position: relative;
+}
+.serach-result{
+	display: block;
+	position: absolute;
+	border: 1px dashed red;
+}

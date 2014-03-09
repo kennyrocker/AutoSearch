@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/lib/jquery-1.9.1.min.js"></script>
+<meta charset=utf-8 />
+<title>JS Search Auto Complete</title>
+<link rel="stylesheet" href="css/auto_serach.css">
+</head>
+
+<body>
+  <input type="text" id="test1" class="auto-search" placeholder="Enter or search for terms"/>
+  <input type="text" id="test2" class="auto-search" placeholder="Enter or search for terms"/>
+
+
+<script src="js/data.js"></script>
+<script src="js/auto_search.js"></script>
+
+
+<script>
+    $(document).ready(function(){
+
+
+        //var a = new autoSearch({id: 'test1', filterSetArr:['pn', 's' , 't', 'dt'], urlField: 'u'});
+
+        var b = new autoSearch({id: 'test2'});
+    });
+</script>
+</body>
+</html>
